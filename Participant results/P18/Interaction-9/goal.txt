@@ -1,0 +1,5 @@
+Branch goal (2): 
+Class: ArrayIntList
+Method: removeElementAt(I)I
+Line: 130
+Branch: IFLE - false

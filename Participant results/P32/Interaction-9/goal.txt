@@ -1,0 +1,5 @@
+Mutation (45): 
+Class: ArrayIntList
+Method: removeElementAt(I)I:
+Line: 129
+Type of mutation: ReplaceArithmeticOperator

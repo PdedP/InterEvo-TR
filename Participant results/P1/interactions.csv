@@ -1,0 +1,11 @@
+Generation,Selected,Tie,MinFailed,MinEmpty,Minimized,SameMin,Archived,Time,ReadabilityScores,Goal
+11,4,true,0,0,2,false,0,408,4-6,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 127
+11,4,true,0,0,2,false,0,133,7-7,Weak Mutation 159: com.org.apache.commons.collections.primitives.ArrayIntList.add(II)V:164 - ReplaceVariable element -> index
+11,4,true,0,0,4,false,1,368,7-8-7,com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V: Line 205
+211,4,true,0,0,2,false,1,89,9,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 127
+211,4,true,0,0,2,false,1,190,9,Weak Mutation 159: com.org.apache.commons.collections.primitives.ArrayIntList.add(II)V:164 - ReplaceVariable element -> index
+211,4,true,0,0,2,false,1,145,6,com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V: Line 205
+411,4,true,0,0,4,false,3,133,6,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 127
+411,4,true,0,0,2,false,1,95,7,Weak Mutation 159: com.org.apache.commons.collections.primitives.ArrayIntList.add(II)V:164 - ReplaceVariable element -> index
+411,4,true,0,0,4,false,1,206,9-9-6,com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V: Line 205
+611,4,true,0,0,4,false,2,118,6-6,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 127

@@ -1,0 +1,5 @@
+Mutation (20): 
+Class: ArrayIntList
+Method: get(I)I:
+Line: 109
+Type of mutation: InsertUnaryOp

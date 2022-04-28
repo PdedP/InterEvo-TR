@@ -1,0 +1,23 @@
+Generation,Selected,Tie,MinFailed,MinEmpty,Minimized,SameMin,Archived,Time,ReadabilityScores,Goal
+11,4,true,0,0,3,false,0,375,4-4-4,Weak Mutation 175: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:178 - ReplaceComparisonOperator <= -> <
+11,4,true,0,0,3,false,0,136,7-5-5,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 127
+11,4,true,0,0,2,false,0,99,5-7,Weak Mutation 251: com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V:202 - ReplaceComparisonOperator < -> <=
+211,4,true,0,0,2,false,2,0,,Weak Mutation 175: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:178 - ReplaceComparisonOperator <= -> <
+211,4,true,0,0,2,false,1,61,5,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 127
+211,2,true,0,0,2,false,0,78,7-6,Weak Mutation 213: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - InsertUnaryOp IINC -1 mincap
+211,4,true,0,0,1,true,0,0,,Weak Mutation 251: com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V:202 - ReplaceComparisonOperator < -> <=
+211,4,true,0,0,2,false,0,44,7-3,Weak Mutation 227: com.org.apache.commons.collections.primitives.ArrayIntList.trimToSize()V:191 - ReplaceComparisonOperator >= -> >
+411,4,true,0,0,2,false,2,0,,Weak Mutation 175: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:178 - ReplaceComparisonOperator <= -> <
+411,4,true,0,0,2,false,2,0,,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 127
+411,4,true,0,0,4,false,3,42,6,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 129
+411,1,true,0,0,1,false,1,0,,Weak Mutation 213: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - InsertUnaryOp IINC -1 mincap
+411,2,true,0,0,2,false,2,0,,Weak Mutation 212: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - InsertUnaryOp IINC 1 mincap
+411,2,true,0,0,2,false,2,0,,Weak Mutation 211: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - InsertUnaryOp Negation of mincap
+411,2,true,0,0,2,false,2,0,,Weak Mutation 210: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - ReplaceVariable mincap -> newcap
+411,2,true,0,0,2,false,1,62,6,Weak Mutation 193: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:179 - ReplaceArithmeticOperator / -> *
+411,4,true,0,0,1,true,0,0,,Weak Mutation 251: com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V:202 - ReplaceComparisonOperator < -> <=
+411,4,true,0,0,1,true,0,0,,Weak Mutation 227: com.org.apache.commons.collections.primitives.ArrayIntList.trimToSize()V:191 - ReplaceComparisonOperator >= -> >
+411,4,true,0,0,1,true,0,0,,com.org.apache.commons.collections.primitives.ArrayIntList.trimToSize()V: I11 Branch 5 IF_ICMPGE L191 - true
+411,4,true,0,0,3,false,0,61,8-6-8,com.org.apache.commons.collections.primitives.ArrayIntList.checkRangeIncludingEndpoint(I)V: Line 211
+611,4,true,0,0,2,false,2,0,,Weak Mutation 175: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:178 - ReplaceComparisonOperator <= -> <
+611,4,true,0,0,3,false,1,59,6-4,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 127

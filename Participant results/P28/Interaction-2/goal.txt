@@ -1,0 +1,5 @@
+Mutation (236): 
+Class: ArrayIntList
+Method: trimToSize()V:
+Line: 194
+Type of mutation: InsertUnaryOp

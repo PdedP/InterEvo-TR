@@ -1,0 +1,5 @@
+Mutation (272): 
+Class: ArrayIntList
+Method: checkRangeIncludingEndpoint(I)V:
+Line: 208
+Type of mutation: ReplaceComparisonOperator

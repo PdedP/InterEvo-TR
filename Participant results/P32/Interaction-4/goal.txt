@@ -1,0 +1,5 @@
+Branch goal (5): 
+Class: ArrayIntList
+Method: trimToSize()V
+Line: 191
+Branch: IF_ICMPGE - true

@@ -1,0 +1,5 @@
+Branch goal (4): 
+Class: ArrayIntList
+Method: ensureCapacity(I)V
+Line: 181
+Branch: IF_ICMPGE - true

@@ -1,0 +1,5 @@
+Mutation (73): 
+Class: ArrayIntList
+Method: removeElementAt(I)I:
+Line: 131
+Type of mutation: InsertUnaryOp

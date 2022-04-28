@@ -1,0 +1,4 @@
+Branch goal: 
+Class: ArrayIntList
+Method: <init>(Lcom/org/apache/commons/collections/primitives/IntCollection;)V
+Branch: Root

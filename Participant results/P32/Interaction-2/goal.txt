@@ -1,0 +1,5 @@
+Mutation (227): 
+Class: ArrayIntList
+Method: trimToSize()V:
+Line: 191
+Type of mutation: ReplaceComparisonOperator

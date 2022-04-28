@@ -1,0 +1,29 @@
+INFORMATION
+Input file: data/PairSeeds/XMLUtil_characters.csv
+Alpha= 0.05
+----------------
+PAIRWISE COMPARISON (WILCOXON)
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, 1] and data[, 2]
+W = 180, p-value = 6.765e-05
+alternative hypothesis: true location shift is not equal to 0
+
+
+
+INTERPRETATION: The Null hypothesis can be rejected (6.76500824637151e-05<0.05)
+
+
+EFFECT SIZE (CLIFF'S DELTA)
+
+
+Cliff's Delta
+
+delta estimate: -0.6 (large)
+95 percent confidence interval:
+     lower      upper 
+-0.7870372 -0.3119427 
+
+
+

@@ -1,0 +1,5 @@
+Mutation (191): 
+Class: ArrayIntList
+Method: ensureCapacity(I)V:
+Line: 179
+Type of mutation: ReplaceArithmeticOperator

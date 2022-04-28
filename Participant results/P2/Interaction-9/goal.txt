@@ -1,0 +1,5 @@
+Mutation (6): 
+Class: ArrayIntList
+Method: <init>(I)V:
+Line: 83
+Type of mutation: ReplaceComparisonOperator

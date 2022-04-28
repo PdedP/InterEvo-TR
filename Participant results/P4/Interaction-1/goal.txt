@@ -1,0 +1,5 @@
+Mutation (102): 
+Class: ArrayIntList
+Method: set(II)I:
+Line: 147
+Type of mutation: InsertUnaryOp

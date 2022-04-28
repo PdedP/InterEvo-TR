@@ -1,0 +1,5 @@
+Mutation (216): 
+Class: ArrayIntList
+Method: ensureCapacity(I)V:
+Line: 181
+Type of mutation: InsertUnaryOp

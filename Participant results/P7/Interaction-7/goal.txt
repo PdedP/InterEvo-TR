@@ -1,0 +1,5 @@
+Mutation (87): 
+Class: ArrayIntList
+Method: set(II)I:
+Line: 144
+Type of mutation: ReplaceVariable

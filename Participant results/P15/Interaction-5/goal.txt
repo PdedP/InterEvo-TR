@@ -1,0 +1,5 @@
+Branch goal (9): 
+Class: ArrayIntList
+Method: checkRangeIncludingEndpoint(I)V
+Line: 208
+Branch: IF_ICMPLE - true

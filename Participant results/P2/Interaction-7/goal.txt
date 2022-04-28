@@ -1,0 +1,5 @@
+Branch goal (7): 
+Class: ArrayIntList
+Method: checkRange(I)V
+Line: 202
+Branch: IF_ICMPLT - false

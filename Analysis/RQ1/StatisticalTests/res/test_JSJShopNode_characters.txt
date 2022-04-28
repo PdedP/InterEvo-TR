@@ -1,0 +1,29 @@
+INFORMATION
+Input file: data/PairSeeds/JSJShopNode_characters.csv
+Alpha= 0.05
+----------------
+PAIRWISE COMPARISON (WILCOXON)
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  data[, 1] and data[, 2]
+W = 2, p-value = 3.69e-11
+alternative hypothesis: true location shift is not equal to 0
+
+
+
+INTERPRETATION: The Null hypothesis can be rejected (3.689725853981e-11<0.05)
+
+
+EFFECT SIZE (CLIFF'S DELTA)
+
+
+Cliff's Delta
+
+delta estimate: -0.9955556 (large)
+95 percent confidence interval:
+     lower      upper 
+-0.9992394 -0.9742602 
+
+
+

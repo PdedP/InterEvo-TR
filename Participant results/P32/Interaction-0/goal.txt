@@ -1,0 +1,4 @@
+Line goal: 
+Class: ArrayIntList
+Method: removeElementAt(I)I
+Line: 130
