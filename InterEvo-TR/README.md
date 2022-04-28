@@ -10,14 +10,14 @@ InterEvo-TR comes with a set of new parameters to adjust *when* and *how* intera
 ```
 Interaction_process:               Specify whether the process is interactive (true) or not (false).
 Interactive_dir:              	   Directory in which to output generated files during interaction.
-Goal_selection_strategy:		   Specify the strategy to select the goals at interaction moments.
+Goal_selection_strategy:	   Specify the strategy to select the goals at interaction moments.
 ```
 
 #### Adjustment of interaction time
 
 ```
 Revise_frequency:                  Interaction will take place at regular intervals of this amount of search budget.
-Max_times:              		   Maximum number of times that the user is willing to interact during the search.
+Max_times:              	   Maximum number of times that the user is willing to interact during the search.
 Revise_after_percentage_coverage:  Specify when the interactive secondary objective will be enabled depending on the percentage of covered goals.
 Max_targets_interaction_moment:	   Maximum number of goals that the user is willing to address in one interaction moment.
 ```
@@ -33,7 +33,7 @@ Percentage_to_revise:              Percentage [0,1] of tests from the population
 ```
 Max_readability_score:             Allowed readability scores in the range [0,MAX_READABILITY_SCORE].
 Readability_threshold:             Readability score under which test cases will not be transferred to the preference archive.
-P_preference_selection:  	       Probability [0,1] of selecting a test case from the preference archive to breed a new test case.
+P_preference_selection:  	   Probability [0,1] of selecting a test case from the preference archive to breed a new test case.
 ```
 
 ### Preparation
