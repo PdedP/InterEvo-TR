@@ -1,6 +1,6 @@
 <h2>InterEvo-TR: Interactive Evolutionary Test Generation with Readability Assessment Replication Package </h2>
 
-This repository contains:
+This repository contains additional material to the paper entitled *"InterEvo-TR: Interactive Evolutionary Test Generation with Readability Assessment"*, currently under revision. Namely:
 
 - **InterEvo-TR**: the implementation of our interactive approach.
 - **Working dataset**: the files used for our empirical study:
