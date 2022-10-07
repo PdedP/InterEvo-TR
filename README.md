@@ -8,6 +8,7 @@ This repository contains additional material to the paper entitled *"InterEvo-TR
 	- The survey performed by the participants.
 	- The class under test and its test runner with the configuration of interaction-related parameters.
 	- The automatically-generated test suites for the comparison of the results.
+	- The pairs of test cases used for the study of test case comparison. 
 - **Participant results**: the data collected from each participant's execution.
 - **Example of interaction**: step-by-step example of the interactions of one participant.
 - **Analysis**: the set of analyses performed to answer the research questions.
