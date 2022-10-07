@@ -1,0 +1,41 @@
+Generation,Selected,Tie,MinFailed,MinEmpty,Minimized,SameMin,Archived,Time,ReadabilityScores,Goal
+11,3,true,0,0,1,true,0,0,,Weak Mutation 73: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp IINC -1 numtomove
+11,3,true,0,0,1,true,0,0,,Weak Mutation 72: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp IINC 1 numtomove
+11,3,true,0,0,1,true,0,0,,Weak Mutation 71: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp Negation of numtomove
+11,3,true,0,0,1,true,0,0,,Weak Mutation 70: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceVariable numtomove -> index
+11,3,true,0,0,1,true,0,0,,Weak Mutation 69: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceVariable numtomove -> oldval
+11,3,true,0,0,1,true,0,0,,Weak Mutation 68: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp IINC -1 index
+11,3,true,0,0,1,true,0,0,,Weak Mutation 67: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp IINC 1 index
+11,3,true,0,0,1,true,0,0,,Weak Mutation 66: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp Negation of index
+11,3,true,0,0,1,true,0,0,,Weak Mutation 65: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceVariable index -> oldval
+11,3,true,0,0,1,true,0,0,,Weak Mutation 64: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceVariable index -> numtomove
+11,3,true,0,0,1,true,0,0,,Weak Mutation 63: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceArithmeticOperator + -> /
+11,3,true,0,0,1,true,0,0,,Weak Mutation 62: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceArithmeticOperator + -> *
+11,3,true,0,0,1,true,0,0,,Weak Mutation 61: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceArithmeticOperator + -> -
+11,3,true,0,0,1,true,0,0,,Weak Mutation 60: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceArithmeticOperator + -> %
+11,3,true,0,0,1,true,0,0,,Weak Mutation 59: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceConstant - 1 -> 0
+11,3,true,0,0,1,true,0,0,,Weak Mutation 58: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp IINC -1 index
+11,3,true,0,0,1,true,0,0,,Weak Mutation 57: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp IINC 1 index
+11,3,true,0,0,1,true,0,0,,Weak Mutation 56: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - InsertUnaryOp Negation of index
+11,3,true,0,0,1,true,0,0,,Weak Mutation 55: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceVariable index -> oldval
+11,3,true,0,0,1,true,0,0,,Weak Mutation 54: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceVariable index -> numtomove
+11,3,true,0,0,1,true,0,0,,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: Line 131
+11,3,true,0,0,1,true,0,0,,Weak Mutation 79: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:133 - ReplaceArithmeticOperator - -> %
+11,3,true,0,0,1,true,0,0,,Weak Mutation 51: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:130 - ReplaceComparisonOperator <= -> -1
+11,3,true,0,0,1,true,0,0,,Weak Mutation 47: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:130 - ReplaceVariable numtomove -> index
+11,3,true,0,0,1,true,0,0,,Weak Mutation 43: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:129 - ReplaceArithmeticOperator - -> %
+11,3,true,0,0,1,true,0,0,,com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I: I28 Branch 2 IFLE L130 - false
+11,3,true,0,0,2,false,0,62,6-9,Weak Mutation 153: com.org.apache.commons.collections.primitives.ArrayIntList.add(II)V:164 - ReplaceVariable index -> numtomove
+11,4,true,0,0,3,false,0,252,8-6-2,Weak Mutation 83: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:134 - ReplaceVariable oldval -> index
+11,4,true,0,0,4,false,0,109,6-6-10-5,Weak Mutation 227: com.org.apache.commons.collections.primitives.ArrayIntList.trimToSize()V:191 - ReplaceComparisonOperator >= -> >
+211,4,true,0,0,4,false,0,133,9-8-8-9,Weak Mutation 83: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:134 - ReplaceVariable oldval -> index
+211,4,true,0,0,3,false,2,49,7,Weak Mutation 227: com.org.apache.commons.collections.primitives.ArrayIntList.trimToSize()V:191 - ReplaceComparisonOperator >= -> >
+211,4,true,0,0,4,false,0,136,8-7-7-7,Weak Mutation 191: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:179 - ReplaceArithmeticOperator / -> %
+411,4,true,0,0,4,false,4,0,,Weak Mutation 83: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:134 - ReplaceVariable oldval -> index
+411,4,true,0,0,4,false,3,63,9,Weak Mutation 82: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:134 - ReplaceVariable oldval -> numtomove
+411,4,true,0,0,1,true,0,0,,Weak Mutation 227: com.org.apache.commons.collections.primitives.ArrayIntList.trimToSize()V:191 - ReplaceComparisonOperator >= -> >
+411,4,true,0,0,3,false,3,0,,com.org.apache.commons.collections.primitives.ArrayIntList.trimToSize()V: I11 Branch 5 IF_ICMPGE L191 - true
+411,4,true,0,0,3,false,3,0,,Weak Mutation 191: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:179 - ReplaceArithmeticOperator / -> %
+411,4,true,0,0,3,false,2,71,8,Weak Mutation 193: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:179 - ReplaceArithmeticOperator / -> *
+411,4,true,0,0,4,false,0,113,9-9-9-9,Weak Mutation 159: com.org.apache.commons.collections.primitives.ArrayIntList.add(II)V:164 - ReplaceVariable element -> index
+611,4,true,0,0,3,false,1,111,5-8,Weak Mutation 83: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:134 - ReplaceVariable oldval -> index

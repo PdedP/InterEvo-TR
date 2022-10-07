@@ -1,0 +1,5 @@
+Mutation (167): 
+Class: ArrayIntList
+Method: add(II)V:
+Line: 165
+Type of mutation: ReplaceArithmeticOperator

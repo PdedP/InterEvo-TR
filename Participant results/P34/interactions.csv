@@ -1,0 +1,27 @@
+Generation,Selected,Tie,MinFailed,MinEmpty,Minimized,SameMin,Archived,Time,ReadabilityScores,Goal
+11,4,true,0,0,3,false,0,170,6-8-5,Weak Mutation 39: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:129 - ReplaceArithmeticOperator - -> *
+11,2,true,0,0,2,false,0,155,6-6,Weak Mutation 214: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - ReplaceVariable newcap -> mincap
+11,3,true,0,0,3,false,0,67,9-9-9,Weak Mutation 274: com.org.apache.commons.collections.primitives.ArrayIntList.checkRangeIncludingEndpoint(I)V:208 - ReplaceComparisonOperator <= -> ==
+211,4,true,0,0,3,false,2,79,10,Weak Mutation 39: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:129 - ReplaceArithmeticOperator - -> *
+211,1,true,0,0,1,false,1,0,,Weak Mutation 214: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - ReplaceVariable newcap -> mincap
+211,2,true,0,0,2,false,2,0,,Weak Mutation 209: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - ReplaceComparisonOperator >= -> ==
+211,2,true,0,0,2,false,2,0,,Weak Mutation 274: com.org.apache.commons.collections.primitives.ArrayIntList.checkRangeIncludingEndpoint(I)V:208 - ReplaceComparisonOperator <= -> ==
+211,4,true,0,0,2,false,0,96,9-7,Weak Mutation 101: com.org.apache.commons.collections.primitives.ArrayIntList.set(II)I:147 - ReplaceVariable element -> index
+211,4,true,0,0,2,false,1,121,3,com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V: Line 205
+411,4,true,0,0,4,false,4,0,,Weak Mutation 39: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:129 - ReplaceArithmeticOperator - -> *
+411,4,true,0,0,3,false,3,0,,Weak Mutation 37: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:129 - ReplaceArithmeticOperator - -> +
+411,1,true,0,0,1,false,1,0,,Weak Mutation 214: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - ReplaceVariable newcap -> mincap
+411,1,true,0,0,1,false,1,0,,Weak Mutation 209: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - ReplaceComparisonOperator >= -> ==
+411,4,true,0,0,4,false,0,134,3-6-3-3,Weak Mutation 65: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceVariable index -> oldval
+411,2,true,0,0,2,false,2,0,,Weak Mutation 274: com.org.apache.commons.collections.primitives.ArrayIntList.checkRangeIncludingEndpoint(I)V:208 - ReplaceComparisonOperator <= -> ==
+411,4,true,0,0,1,true,0,0,,Weak Mutation 101: com.org.apache.commons.collections.primitives.ArrayIntList.set(II)I:147 - ReplaceVariable element -> index
+411,4,true,0,0,2,false,2,0,,Weak Mutation 96: com.org.apache.commons.collections.primitives.ArrayIntList.set(II)I:147 - ReplaceVariable index -> element
+411,4,true,0,0,2,false,2,0,,Weak Mutation 91: com.org.apache.commons.collections.primitives.ArrayIntList.set(II)I:146 - ReplaceVariable index -> element
+411,4,true,0,0,2,false,1,51,8,Weak Mutation 109: com.org.apache.commons.collections.primitives.ArrayIntList.set(II)I:148 - InsertUnaryOp IINC -1 oldval
+411,4,true,0,0,2,false,2,0,,com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V: Line 205
+411,4,true,0,0,3,false,2,49,10,com.org.apache.commons.collections.primitives.ArrayIntList.checkRange(I)V: I7 Branch 7 IF_ICMPLT L202 - true
+611,4,true,0,0,2,false,2,0,,Weak Mutation 39: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:129 - ReplaceArithmeticOperator - -> *
+611,4,true,0,0,2,false,2,0,,Weak Mutation 37: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:129 - ReplaceArithmeticOperator - -> +
+611,1,true,0,0,1,false,1,0,,Weak Mutation 214: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - ReplaceVariable newcap -> mincap
+611,1,true,0,0,1,false,1,0,,Weak Mutation 209: com.org.apache.commons.collections.primitives.ArrayIntList.ensureCapacity(I)V:181 - ReplaceComparisonOperator >= -> ==
+611,4,true,0,0,4,false,3,86,9,Weak Mutation 65: com.org.apache.commons.collections.primitives.ArrayIntList.removeElementAt(I)I:131 - ReplaceVariable index -> oldval

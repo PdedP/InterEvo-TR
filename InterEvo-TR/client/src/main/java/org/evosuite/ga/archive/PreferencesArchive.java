@@ -29,6 +29,7 @@ import org.evosuite.utils.Randomness;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.security.UnrecoverableEntryException;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
@@ -81,7 +82,8 @@ public class PreferencesArchive extends Archive {
       isNewSolutionBetterThanCurrent = this.isBetterThanCurrent(currentSolution, solution);
       
     }
-    if (isNewTarget || isNewSolutionBetterThanCurrent) {
+   //NEW: Take into account revisit_candidates, since the current preferred may have decreased its readability score
+    if (isNewTarget || isNewSolutionBetterThanCurrent || Properties.REVISIT_CANDIDATES) {
       // update the archive if this is a new target, or if a new solution is preferred over the current solution.
       this.addToArchive(target, solution);
     }
@@ -92,6 +94,15 @@ public class PreferencesArchive extends Archive {
 	this.preferred.put(target, solution);
     this.hasBeenUpdated = true;
 
+    //NEW: Update all the targets with that test
+    if(Properties.REVISIT_CANDIDATES) {
+    	for(Map.Entry<TestFitnessFunction, TestChromosome> entry : this.preferred.entrySet()) {
+    		if(entry.getValue().equals(solution)) {
+    			entry.setValue(solution);
+    		}
+    	}
+    }
+    
     ExecutionResult result = solution.getLastExecutionResult();
     if (result != null && (result.hasTimeout() || result.hasTestException())) {
       AtMostOnceLogger.warn(logger,
